@@ -52,7 +52,6 @@ function searchMovies(event){
 
   featured_movie.innerHTML = count == 0 ? 'Nothing was found' : ''
 }
-
 document.querySelector("button").onclick = searchMovies
 document.querySelector('[type="search"]').onsearch = searchMovies
 document.querySelector("form").onsubmit = searchMovies
